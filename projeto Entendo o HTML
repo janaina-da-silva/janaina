@@ -1,0 +1,178 @@
+<html>
+    <!-- Cabecalho do documento onde estao presentes metadados e informacaes sobre a pagina -->
+    <head>
+        <!-- O titulo da pagina e definido dentro da tag <title> -->
+        <title>Entendo o HTML</title>
+        <style>
+            body {
+                font-family: Sora, sans-serif;
+                justify-content: center;
+                height: 100%;
+                margin: 12;
+                background-color: #d8d0d050;
+                text-align: justify; }
+        </style>
+    </head>
+
+    <!-- Corpo da pagina, onde esta o conteudo visivel ao usuario -->
+    
+    <body >
+        <!-- Titulo principal -->
+        <h1 id="Navegação">
+            <!-- O texto em negrito marcado com a tag <strong> -->
+            <strong>
+                HTML: A Linguagem que esta sempre evoluindo!
+            </strong>
+        </h1>
+
+        <!-- Linha horizontal -->
+        <hr>
+        
+        <!-- Navegação -->
+        <h3>Navegação</h3>
+        <!--  Lista nao ordenada utilizando  tag "ul" -->
+        <ul>
+            <!-- Ancoragem para navegação interna -->
+            <!-- O atributo href direciona para a ancora correspondente -->
+            <!-- O atributo id define a ancora a ser alcançada -->
+            <li><a href="#Introdução">Introdução ao HTML</a></li>
+            <li><a href="#Surgimento"> Surgimento do HTML</a></li>
+            <li><a href="#A Evolução">A Evolução do HTML</a></li>
+            <li><a href="#A Importância">A Importância do HTML</a></li>
+            <li><a href="#Links Uteis">Links para Estudos Adicionais</a></li>
+        </ul>
+        <!-- Linha horizontal -->
+        <hr>
+
+        <!-- Titulo ultilizando a ancora -->
+        <h2 id="Introdução">
+            <!-- A ancora para voltar a navegação é criada com o atributo href -->
+            <a href="#Navegação">Introdução ao HTML</a>
+        </h2>
+        <!-- Paragrafo utilizando a tag 'p'-->
+        <p>
+            O HTML (Hypertext Markup Language) tem sido a espinha dorsal da World Wide Web. Surgindo de uma necessidade 
+            de compartilhar e exibir documentos de forma mais dinamica e interativa. 
+            O HTML revolucionou a forma como as informações são apresentadas e acessadas na web. 
+            Neste artigo, exploraremos a história do HTML, seu 
+            papel na evolução da internet e sua importancia continua nos dias de hoje.
+        </p>
+
+        <!-- Titulo ultilizando a ancora -->
+        <h2 id="Surgimento">
+            <a href="#Navegação"> Surgimento do HTML </a>
+        </h2>
+        <!-- Paragrafo utilizando a tag 'p'-->  
+    <p>
+        O HTML foi inventado por Tim Berners-Lee, um físico do centro de pesquisas CERN, na Suíça.
+        Berners-Lee estava buscando uma maneira de compartilhar documentos de pesquisa de forma mais eficiente entre os cientistas. 
+        Ele surgiu com a ideia de um sistema de hipertexto na internet.
+        Hipertexto significa um texto que possui referências (links) para outros textos que podem ser acessados imediatamente.
+        Ele publicou a primeira versão do HTML em 1991, consistindo em 18 tags. Desde então, cada versão do HTML vem com novas tags
+        e atributos (modificadores de tags).
+    </p>
+    <p>
+        Com a ajuda de Robert Cailliau que implementou a primeira comunicação bem-sucedida entre um cliente HTTP 
+        e o servidor através da internet. Tim Berners-Lee desenvolveu a primeira 
+        especificação do HTML, juntamente com o protocolo HTTP 
+        (Hypertext Transfer Protocol) e a URL (Uniform Resource Locator). 
+        Em 1991, o primeiro website do mundo foi criado por Berners-Lee no CERN, 
+        marcando o início da era da web
+    </p>
+    <p>
+        Devido a rápida ascensão e popularidade, o HTML é agora considerado um padrão oficial da web.
+        O maior upgrade da linguagem foi o lançamento do HTML5 em 2014.
+        Diversas novas tags semânticas foram adicionadas que revelam o significado do seu próprio conteúdo,
+        como article , header, e footer.         
+    </p>
+
+     <!-- Titulo ultilizando a ancora -->
+        <h2 id="A Evolução">
+            <a href="#Navegação">A Evolução do HTML</a>
+        </h2>
+
+    <!-- Paragrafo utilizando a tag 'p' -->
+
+        <p>
+            Desde sua criação, o HTML passou por várias iterações e evoluções. 
+            A versão inicial, HTML, continha apenas um conjunto básico de 
+            tags para estruturar documentos simples. Com o tempo, novas versões 
+            do HTML foram introduzidas, cada uma trazendo novos recursos e 
+            funcionalidades.
+        </p>
+        <p>
+            O HTML 2.0, lançado em 1995, introduziu suporte para formulários e 
+            tabelas, permitindo uma interatividade mais avançada nas páginas da web. 
+            O HTML 3.5, lançado em 1997, adicionou suporte para folhas de estilo 
+            embutidas e melhorias na semântica do documento. 
+        </p>
+        <p>
+            No entanto, foi o lançamento do HTML 4.01 em 1999 que marcou uma mudança 
+            significativa na web. Esta versão introduziu elementos, e atributos, e suporte, e apresentação. 
+        </p>
+        <p>
+            Em 2014, o HTML5 foi lançado como a versão mais recente e avançada 
+            do HTML. HTML5 trouxe uma série de novos recursos e funcionalidades, 
+            incluindo suporte nativo para áudio e vídeo, elementos de semântica 
+            aprimorada e interatividade web. Então o HTML5 se 
+            tornou o padrão de para o desenvolvimento web moderna. 
+        </p>
+
+     <!-- Titulo utilizando a ancora -->
+        <h2 id="A Importância">
+            <a href="#Navegação">A Importância do HTML</a>
+        </h2>
+       <!-- Paragrafo utilizando a tag 'p' -->
+        <p>
+            Mesmo com o surgimento de tecnologias mais avançadas, como JavaScript e 
+            frameworks de desenvolvimento front-end, o HTML continua sendo fundamental
+             para a construção de qualquer site na internet. Ele fornece a estrutura 
+             básica e a semântica necessária para organizar e apresentar informações 
+             de forma clara e acessível ao usuario.
+        </p>
+        <p>
+            Além disso, o HTML desempenha um papel crucial na acessibilidade web. 
+            Ao utilizar tags semânticas e estruturar o conteúdo de forma adequada, 
+            os desenvolvedores podem garantir que seus sites sejam acessíveis a 
+            todos os usuários, incluindo aqueles com deficiências visuais ou 
+            cognitivas. 
+        </p>
+
+      <!-- Titulo utilizanso a ancora -->
+        <h2 id="Links Uteis">
+            <strong><a href="#Navegação">Links para Estudos Adicionais</a></strong>
+        </h2>
+      <!-- Paragrafo ultilizando a tag "p" -->
+        <p>
+            Se você estiver interessado em aprender mais sobre HTML e desenvolvimento web, aqui estão alguns recursos :
+        </p>
+        <p>
+            <!-- Links uteis para estudos adicionais -->
+            <a href="https://developer.mozilla.org/pt-BR/" target="_blank">Mozilla Developer Network (MDN)</a>
+            O MDN oferece uma ampla gama de documentacao e tutoriais sobre HTML,  CSS e JavaScript.
+            E uma fonte confiavel de informacoes para desenvolvedores web de todos os niveis de habilidades.
+        </p>
+<!-- Paragrafo ultilizando a tag "p" -->
+        <p>
+            <a href="https://www.w3schools.com/" target="_blank">W3Schools</a>
+            O W3Schools é um site popular que oferece tutoriais interativos e 
+            exemplos de código, incluindo HTML. 
+            É uma ótima opção para iniciantes que desejam aprender as noções básicas de HTML.
+        </p> 
+        <!-- Paragrafo ultilizando a tag "p" -->
+        <p>
+            <!-- utilizando a tag "small" -->
+            Explorar esses recursos pode ajudá-lo a desenvolver suas habilidades 
+            em HTML e expandir seu conhecimento sobre desenvolvimento <small>web</small>. 
+            Lembre-se, a prática constante é fundamental para se tornar um 
+            desenvolvedor <small>web</small> habilidoso, então não tenha medo de experimentar 
+            e criar seus <small>próprio</small> projetos. 
+        </p>
+        <p>
+
+        </p>
+        <footer>
+
+        </footer>
+    </body>
+</html>
