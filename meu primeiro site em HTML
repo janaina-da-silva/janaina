@@ -1,0 +1,204 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bixo Mimado Clinica e Pet-Shop</title>
+    <style>
+       .body{ background-color: rgb(255, 247, 247);
+     }
+     .row{ margin:5px; }
+     fieldset{ margin: 10px 0;
+                      border-radius: 10px;
+                      border-color: rgb(7, 119, 184);
+            }
+            label{ width: 100px;
+               text-align: right;
+                display: inline-block;
+                padding-right: 5px;
+            }
+            .container {
+                float: left;
+   margin-right: 30px;}
+.container > iframe {
+    background: black;
+    border: none;
+    height: 450px;
+    width: 500px;}
+    .flex{
+        float: left;
+   margin-right: 30px;
+}
+    </style>
+</head>
+<body> <font face="'trebuchet MS', Tahoma">
+    <!-- Imagem logo -->
+    <header align="center" >
+        <img id="Navegação" title="Bixo Mimado Clinica e Pet-Shop" width="400"
+img src="data:image/png;base64,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">
+    </header>
+    <h3>
+    <div id="menu-lateral">
+        <div id="links">
+                <ul>
+                    <li><a href="#inicio">Pagina Inicial</a></li>
+                    <p></p><li><a href="#clinica">Quem Somos</a></li></p>
+                    <p></p><li><a href="#horario">Horario de atendimento</a></li></p>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+        </div>
+    </div>
+</h3>
+    <!-- Pag. Inicial -->
+    <h2 id="inicio">
+        <strong><a href="#Navegação"> Pagina Inicial </a></strong>
+    </h2>
+    <h3>TEMOS OS MELHORES
+
+        SERVIÇOS PARA O
+        CONFORTO DO SEU PET</h3>
+        
+        <blockquote>A Bicho Mimado conta com um leque de produtos e serviços dos mais variados para melhor atender seus clientes!</blockquote>
+<p><strong>Banho e Tosa</strong> </p>
+       <blockquote>O banho e tosa do seu pet com a melhor equipe! Conheça nosso banho relaxante. Conheça nossos pacotes!</blockquote> 
+    <p> <strong>Vacinas</strong> </p>
+    <p> <strong>Consultas</strong></p>
+    <p> <strong> Centro Cirúrgico </strong>
+        <blockquote> Um espaço onde você pode deixar seu pet com segurança e tranquilidade! Equipe 24h, conforto e tranquilidade.
+    castração </blockquote></p>
+    <p> <strong>LABORATÓRIO </strong>
+        <blockquote>Exames Laboratoriais e Raio-X</blockquote>
+        <blockquote> Os resultados dos exames do seu pet são feitos com a melhor equipe! Laboratório próprio e estrutura completa
+    Clínica – estabelecimento constituído por consultórios e ambientes destinados ao atendimento de individualde seu Pet.</blockquote>
+    <p> <strong>FARMÁCIA </strong>
+        <blockquote>Uma variedade de produtos que você só encontra aqui.</blockquote>
+
+    <p> Contamos com os variados e completos tipos de serviços que um pet shop pode oferecer.
+    <p><strong>Hotelzinho</strong> para maior comodidade dos tutores, podendo deixar seus pets em um lugar seguro e confortável.
+
+        <p> Toda estrutura para procedimentos de saúde para seu pet. 
+        <p>Laboratório próprio, salas de exames e um centro cirúrgico completo. 
+        <p>Uma grande variedade de produtos em nossa farmácia.
+    
+            <p>Toda estrutura para aquele banho e tosa do seu pet.
+                <p>Contamos com uma equipe super dedicada e um plus extra, o banho relaxante.
+    
+                <p> <strong>Venha nos conhecer!</strong>
+<hr>    
+    <!-- Sobre a clinica -->
+<h2 id="clinica" align="center">
+    <strong> <i><a href="#Navegação"> Quem Somos </a></i></strong>
+</h2>
+<div class="flex">
+<img  src="https://coren-se.gov.br/wp-content/uploads/2021/03/WhatsApp-Image-2021-02-24-at-12.25.36-e1614695401861-300x234.jpeg"/></div>
+<legend aling="center">
+<p> Pioneira no mercado PET, a Bicho Mimado é um pet shop e clínica veterinária que atua há 28 anos no mercado.
+Hoje totalmente dedicada à saúde e bem estar dos animais.
+
+<p>Conta com o mais moderno laboratório de exames clínicos e de imagem, além de profissionais capacitados e dedicados.
+
+<p>Conveniência para você e seu Pet
+A Bicho Mimado conta com um leque de produtos e serviços dos mais variados para melhor atender seus clientes!
+
+<p>Equipe Dedicada</p>
+Uma equipe treinada, atenciosa e dedicada a melhor servir e cuidar do nosso cliente!
+
+<p>Garantia de Satisfação</p>
+Promovemos a saúde e bem-estar dos animais de estimação, tornando mais saudável e feliz a sua convivência com o homem.</p>
+Missão
+Promover o desenvolvimento da Enfermagem, disciplinando, regulamentando e
+fiscalizando o exercício profissional, primando pela aplicação da conduta ética,
+visando o bem-estar da Sociedade.
+Valores
+Ética, Legalidade, Respeito, Profissionalismo, Transparência, Cooperação e
+Integração, Eficiência.
+</legend>
+<hr>
+    <!-- tabela com horario -->
+<h2 id="horario" align="center">
+    <strong><a href="#Navegação"> Horario de Atendimento</a></strong>
+</h2> 
+<table border="1" width="750" align="center" cellspacing="0" cellpadding="5">
+    <strong><caption> Horario de Atendimento e Especialidades </caption></strong>
+    <thead> <!-- foi definido como cabeçalho-->
+     <tr>
+         <th title="Especialidades"> Serviços</th>
+         <th> Segunda a Quinta</th>
+         <th> Sexta</th>
+         <th> Sabado</th>
+         <th> Feriados</tr>
+         </tr> </thead>
+         <ttbody> <!-- mostra que seria o corpo da tabela -->
+     <tr>
+      <td> Atendimento Urgente</td>
+      <td> 08:00 - 19:00 </td>
+      <td> 08:00 - 19:00</td>
+      <td> 08:00 - 15:00</td>
+      <td> 08:00 - 13:00</td> 
+    </tr>
+     <tr>
+        <td>Consulta com Veterinario</td>
+        <td> 08:00 - 17:00</td>
+        <td> 08:00 - 13:00</td>
+        <td> 07:30 - 12:00</td>
+        <td>  - </td>
+     </tr>
+     <tr>
+        <td>RX e demais exames </td>
+        <td> 08:00 - 13:00</td>
+        <td> - </td>
+        <td> 08:00 - 12:00</td>
+        <td> - </td>
+     </tr>
+     
+     <tr>
+        <td> Banho e Tosa </td>
+        <td>08:00 - 17:00 </td>
+         <td> 08:00 - 15:00</td>
+         <td> 08:00 - 12:00</td>
+         <td>  - </td>
+     </tr>
+         </tbody> 
+     <tfoot> <!--  define o rodape da tabela -->
+      <tr> <td> Ficamoas no seu aguardo </td> </tr>
+     </tfoot>
+ </table>
+<p>
+ <hr>
+<h2 id="contato" align="center"> 
+    <strong><a href="#Navegação">Nosso Contato Bixo Mimado </a></strong>
+</h2> <!-- contato e enderço com mapa -->
+<div class="container">
+<iframe  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d442742.5951667019!2d-51.55107765786523!3d-29.89521767685577!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x951978f690494619%3A0x55595257ae636e8c!2sBichinho%20Mimado%20Pet%20Shop!5e0!3m2!1spt-PT!2sbr!4v1712113440038!5m2!1spt-PT!2sbr" style="border:0;" allowfullscreen="" loading="lazy" 
+referrerpolicy="no-referrer-when-downgrade" >
+</iframe> </div>
+<p>Celular: (51) 1234-578
+    <p>WhatSapp: (51) 1934-578
+    <p>Endereço: R. Comendador Rodolfo Gomes, 371 - Menino Deus, Porto Alegre - RS, 90150-100
+    </p>
+<hr>
+<fieldset widt="600" height="400"> <!-- ultizando o fieldset-->
+<legend>Envie sua mensagem</legend>
+<div class="row">
+    <label> Nome: </label> <input type="nome" />
+    <label> E-mail: </label> <input type="email" />
+  </div>
+  <div class="row">
+    <label> Celular:</label> <input type="number" type="width: 30px" type="text" width="10" />
+    <label> Whatsapp: </label> <input type="number" type="text" width="10" />
+  </div>
+  <div class="row">
+    <label> Assunto </label> <input type="text" />
+  </div>
+  <div class="row">
+<label>Comentários</label>
+<textarea name="comentarios" class="form-control" rows="4"></textarea>
+</div>
+</fieldset>
+<div class="row">
+    <button type="reset">Limpar</button>
+    <button type="submit">Enviar Formulario</button>
+</div>
+
+</font>      
+</body>
+</html>
