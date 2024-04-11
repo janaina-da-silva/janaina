@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recrindo Wikipedia com um layout melhor 3</title>
+<style>
+    nav {
+        display: inline-block;
+        list-style: none;
+        margin: 1px;
+        padding-right: 80px;
+        text-align: center;
+    }
+    nav ul li {
+        display: flexbox;
+        margin: 1px;
+    }
+    nav > figure > img > p {
+    float: left;
+   }
+   pre {
+    text-align: center;
+   }
+</style>
+</head>
+<body> 
+<reader>
+    <nav id="logo">
+        <figure>
+         <img di="logo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAoZ3pLXs1XLIj_yIun_ySDug7eARkMmKHwg&s" alt="logo da wikipedia" width="650" height="100">
+        </figure>
+        </nav>
+    </reader>
+    <hr>
+    
+    <hr>
+    <selection>
+    <nav id=""></nav>
+            <H2> Noticias</H2>
+            <ul>
+                <li><a href="">Ziraldo Alves Pinto</a></li></ul>
+                <nav id="menu-lateral">
+                <ul>
+                    <li><a href="#vida">Sua Vida</a></li>
+                    <li><a href="#car">Carreira</a></li>
+                    <li><a href="#obras">Obras</a></li>
+                    <li><a href="#pre">Premios</a></li>
+                    <li><a href="#ctc">Controvérsias</a></li>
+                </ul>
+           </nav>
+    
+    <nav id="">
+        <h1> Em memoria de Ziraldo Alves Pinto</h1> <!-- titulo-->
+        <h2> criador de 'O Menino Maluquinho'</h2></nav>
+    <nav id="">
+            <H2> neste artigo</H2>
+            <ul>
+                <li><a href="#obras">Obra mais famosa</a></li>
+                <li><a href="#obras">Livro Menino Maluquinho</a></li>
+                <li><a href="#obras">O Perer</a></li>
+                <li><a href="#obras">O Pasquim</a></li>
+            </ul>
+        </nav>
+    </nav>
+
+    <h2 id="vida">
+            <li><a href="#menu-lateral">Sua Vida</a></li>
+    </h2>
+ 
+    <nav style="display:flex; justify-content: space-between;">
+        <figure id="conteine">
+            <img  src="https://upload.wikimedia.org/wikipedia/commons/7/76/Ziraldo_e_Felipe_Vellozo_2015_%28cropped%29.jpg"></figure>
+             Ziraldo Alves Pinto (Caratinga, 24 de outubro de 1932 — Rio de Janeiro, 6 de abril de 2024) foi um cartunista, chargista, pintor,
+            escritor, dramaturgo, cartazista, caricaturista, poeta, cronista, desenhista, apresentador, humorista e jornalista brasileiro.
+            Natural de Caratinga (MG), onde passou a infância, Ziraldo veio a se tornar um dos maiores nomes da literatura infantil do País.
+             Desenhista desde a infância, formou-se em Direito pela Universidade Federal de Minas Gerais (Ufmg) em 1957. Na década de 1960,
+             se tornou um dos fundadores do O Pasquim, veículo combativo à Ditadura Militar, que vigorou entre 1964 e 1985.
+            Morreu, aos 91 anos, o cartunista, desenhista e escritor Ziraldo Alves Pinto, criador de, entre outros personagens reconhecidos, 
+            'O Menino Maluquinho'.
+    A informação foi confirmada pela família do desenhista na tarde deste sábado (6).
+     Ziraldo morreu em casa, um apartamento no bairro da Lagoa, na Zona Sul do Rio.
+   Luiz Antônio Costa, Rafael Nascimento, g1 Rio e TV Globo  06/04/2024 16h16.
+     À TV Globo, a família do artista confirmou, que ele faleceu enquanto dormia em casa, no bairro da Lagoa,
+    na Zona Sul do Rio de Janeiro.
+    Segundo a assessoria de Ziraldo, ele estava com a saúde debilitada após sofrer três AVCs (acidente vascular cerebral) 
+       entre 2018 e 2022, informou a Globonews. A causa da morte não foi divulgada.
+    </figure>
+    </nav>
+       <hr>
+
+<h2 id="obras">
+    <a href="#menu-lateral">Obras:</a>
+</h2><nav style="display:flex; ">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWQl1Ycmv4xAvBBwSbdIkOaPzhq5o87_dQCA&s" alt="imagem do autor com ilustrativa com seus personagens" >
+    <pre> Suas Obras
+    Quadrinhos
+    O Pererê (1959 – 1976)
+    Jeremias, O Bom (1965-1969)
+    The Supermãe (1968-1984)
+    O Menino Maluquinho (1988-2007)</pre>
+    </nav><nav style="display:flex; justify-content: space-between;"></nav>
+    Ziraldo começou a carreira em 1950, na revista Era uma vez..., e se tornou responsável por uma folha de humor no A Folha de Minas, jornal onde publicou seu primeiro desenho, aos seis anos de idade, em 1939.
+
+    Em 1960, passou a trabalhar, também, pelo Jornal do Brasil, veículo onde publicava artes políticas. Também, nessa época, passou a escrever histórias em quadrinhos e publicou a primeira revista sobre a Turma do Pererê. Nesse período, também surgiram os personagens Mineirinho, Jeremias, o Bom, e Supermãe. 
+    
+    Cinco anos depois, com outros humoristas, fundou o semanário O Pasquim, com artes emblemáticas e personagens irreverentes como o Graúna, Ubaldo e os Fradins. Integraram a publicação os artistas Millôr, Henfil, Jaguar, Tarso de Castro, Sérgio Cabral, Ivan Lessa, Sérgio Augusto e Paulo Francis.
+    
+    Ziraldo chegou a ser preso um dia após o AI-5, baixado em 13 de dezembro de 1968. Na ocasião, foi detido em casa e levado ao Forte de Copacabana. Seu primeiro livro infantil foi publicado em 1969, o FLICTS, e uma década depois, em 1979, se dedicou à literatura infantil. 
+    
+    Foi quando surgiu 'O Menino Maluquinho', em 1980, considerado seu maior sucesso e um dos maiores fenômenos editorais brasileiros
+   <figure>
+<img div="a2" src="data:image/jpeg;base64,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">
+</figure> 
+</nav>
+<hr>
+<nav>
+<h2 id="pre">
+    <a href="#menu-lateral">Premios</a>
+</h2>
+<table border="5" width="250" align="center" cellspacing="0" cellpadding="5">
+    <caption> Premiações Por Obra</caption>
+    <thead> 
+     <tr>
+         <th title=""> Ano</th>
+         <th> Premiação</th>
+     </tr> </thead>
+         <ttbody> <!-- corpo da tabela -->
+     <tr>
+         <td> 1969</td>
+         <td> Nobel Internacional do Humor</td>
+     </tr>
+     <tr>
+         <td> 1980</td>
+         <td> Premio jabuti de Literatura</td>
+     </tr>
+     <tr>
+         <td> 2004</td>
+         <td>Premio Andersen - Il mondo dell'infanzia</td>
+     </tr>
+     <tr>
+         <td> 2005</td>
+         <td> Ordem do Mérito Cultural</td>
+     </tr>
+     <tr>
+         <td> 2008</td>
+         <td> Prêmio Ibero-Americano de Humor Gráfico</td>
+     </tr>
+    <tr>
+        <td> 2012</td>
+        <td> Prêmio Jabuti de Literatura</td>
+    </tr>
+     </tbody> 
+     <tfoot> <!--  define o rodape da tabela nao importa a ordem que essa tag esteja-->
+ </table>
+ <hr>
+<h2 id="ctc">
+    <a href="#menu-lateral">Controvérsias</a>
+</h2>
+Condenação por impropridade administrativa
+<p>Em 31 de março de 2011, Ziraldo, seu irmão Zélio Alves Pinto e mais 9 pessoas foram condenados por improbidade administrativa na realização, em 2003, do primeiro Festival Internacional do Humor Gráfico das Cataratas do Iguaçu (Festhumor) e no “Fantur - Iguaçu dê uma volta por aqui”, em ação movida em 2006 pelo Ministério Público Federal. A ação relata que o dinheiro público municipal e federal foi mal utilizado porque, segundo a sentença, para o primeiro Festhumor, houve contratações sem licitação e pagamentos em duplicidade, que corresponde a remuneração dupla pelo serviço prestado uma vez. O processo relata ainda desvio de verba no Fantur, que foi uma ação promovida pela Secretaria de Turismo de Foz do Iguaçu para levar jornalistas e cartunistas para cidade, com todas as despesas custeadas pela prefeitura. Além disso, Ziraldo registrou indevidamente a marca do festival em seu nome no Instituto Nacional da Propriedade Industrial (INPI), contrariando o edital (que previa a cessão perpétua do desenho), e caracterizando assim a intenção de utilizar a marca comercialmente. Em 24 de novembro de 2011, a pena de Ziraldo foi fixada em dois anos, dois meses e 20 dias de reclusão, além do pagamento de multa de cerca de 87,3 mil reais. O juiz substituiu a prisão por prestação de serviço à comunidade ou entidades públicas, e o pagamento de um salário-mínimo mensal pelo mesmo período da pena. Ziraldo e os demais réus podem recorrer da decisão</p>
+</selection>
+</nav>
+<footer>
+   <hr> <p><b>Esta página foi editada pela última vez às 20h22min de 10 de abril de 2024</b></p><hr>
+</footer>
+</body>
+</html>
